@@ -1,0 +1,102 @@
+import 'package:test/test.dart';
+
+import 'problem/101.symmetric_tree.test.dart' as symmetric_tree;
+import 'problem/102.binary_tree_level_order_traversal.test.dart' as binary_tree_level_order_traversal;
+import 'problem/104.maximum_depth_of_binary_tree.test.dart' as maximum_depth_of_binary_tree;
+import 'problem/1051.height_checker.test.dart' as height_checker;
+import 'problem/106.construct_binary_tree_from_inorder_and_postorder_traversal.test.dart'
+    as construct_binary_tree_from_inorder_and_postorder_traversal;
+import 'problem/1089.duplicate_zeros.test.dart' as duplicate_zeros;
+import 'problem/112.path_sum.test.dart' as path_sum;
+import 'problem/1295.find_numbers_with_even_number_of_digits.test.dart' as find_numbers_with_even_number_of_digits;
+import 'problem/1299.replace_elements_with_greatest_element_on_right_side.test.dart'
+    as replace_elements_with_greatest_element_on_right_side;
+import 'problem/1342.number_of_steps_to_reduce_a_number_to_zero.test.dart'
+    as number_of_steps_to_reduce_a_number_to_zero;
+import 'problem/1346.check_if_n_and_its_double_exist.test.dart' as check_if_n_and_its_double_exist;
+import 'problem/144.binary_tree_preorder_traversal.test.dart' as binary_tree_preorder_traversal;
+import 'problem/145.binary_tree_postorder_traversal.test.dart' as binary_tree_postorder_traversal;
+import 'problem/1480.running_sum_of_1d_array.test.dart' as running_sum_of_1d_array;
+import 'problem/1672.richest_customer_wealth.test.dart' as richest_customer_wealth;
+import 'problem/19.remove_nth_node_from_end_of_list.test.dart' as remove_nth_node_from_end_of_list;
+import 'problem/2.add_two_numbers.test.dart' as add_two_numbers;
+import 'problem/203.remove_linked_list_elements.test.dart' as remove_linked_list_elements;
+import 'problem/206.reverse_linked_list.test.dart' as reverse_linked_list;
+import 'problem/21.merge_two_sorted_lists.test.dart' as merge_two_sorted_lists;
+import 'problem/2235.add_two_integers.test.dart' as add_two_integers;
+import 'problem/234.palindrome_linked_list.test.dart' as palindrome_linked_list;
+import 'problem/250.count_univalue_subtrees.test.dart' as count_univalue_subtrees;
+import 'problem/26.remove_duplicates_from_sorted_array.test.dart' as remove_duplicates_from_sorted_array;
+import 'problem/27.remove_element.test.dart' as remove_element;
+import 'problem/283.move_zeroes.test.dart' as move_zeroes;
+import 'problem/300.longest_increasing_subsequence.test.dart' as longest_increasing_subsequence;
+import 'problem/328.odd_even_linked_list.test.dart' as odd_even_linked_list;
+import 'problem/383.ransom_note.test.dart' as ransom_note;
+import 'problem/412.fizz_buzz.test.dart' as fizz_buzz;
+import 'problem/414.third_maximum_number.test.dart' as third_maximum_number;
+import 'problem/448.find_all_numbers_disappeared_in_an_array.test.dart' as find_all_numbers_disappeared_in_an_array;
+import 'problem/485.max_consecutive_ones.test.dart' as max_consecutive_ones;
+import 'problem/487.max_consecutive_ones_ii.test.dart' as max_consecutive_ones_ii;
+import 'problem/61.rotate_list.test.dart' as rotate_list;
+import 'problem/707.design_linked_list.test.dart' as design_linked_list;
+import 'problem/876.middle_of_the_linked_list.test.dart' as middle_of_the_linked_list;
+import 'problem/88.merge_sorted_array.test.dart' as merge_sorted_array;
+import 'problem/9.palindrome_number.test.dart' as palindrome_number;
+import 'problem/905.sort_array_by_parity.test.dart' as sort_array_by_parity;
+import 'problem/94.binary_tree_inorder_traversal.test.dart' as binary_tree_inorder_traversal;
+import 'problem/941.valid_mountain_array.test.dart' as valid_mountain_array;
+import 'problem/977.squares_of_a_sorted_array.test.dart' as squares_of_a_sorted_array;
+import 'structure/list_node.test.dart' as list_node;
+import 'structure/tree_node.test.dart' as tree_node;
+
+void main() {
+  group('structure', () {
+    list_node.main();
+    tree_node.main();
+  });
+  group('problems', () {
+    max_consecutive_ones.main();
+    find_numbers_with_even_number_of_digits.main();
+    valid_mountain_array.main();
+    add_two_integers.main();
+    richest_customer_wealth.main();
+    running_sum_of_1d_array.main();
+    number_of_steps_to_reduce_a_number_to_zero.main();
+    middle_of_the_linked_list.main();
+    ransom_note.main();
+    fizz_buzz.main();
+    longest_increasing_subsequence.main();
+    merge_sorted_array.main();
+    duplicate_zeros.main();
+    squares_of_a_sorted_array.main();
+    remove_element.main();
+    remove_duplicates_from_sorted_array.main();
+    check_if_n_and_its_double_exist.main();
+    replace_elements_with_greatest_element_on_right_side.main();
+    move_zeroes.main();
+    sort_array_by_parity.main();
+    height_checker.main();
+    max_consecutive_ones_ii.main();
+    third_maximum_number.main();
+    find_all_numbers_disappeared_in_an_array.main();
+    design_linked_list.main();
+    remove_nth_node_from_end_of_list.main();
+    reverse_linked_list.main();
+    remove_linked_list_elements.main();
+    odd_even_linked_list.main();
+    palindrome_linked_list.main();
+    merge_two_sorted_lists.main();
+    palindrome_number.main();
+    add_two_numbers.main();
+    rotate_list.main();
+    binary_tree_preorder_traversal.main();
+    binary_tree_inorder_traversal.main();
+    binary_tree_postorder_traversal.main();
+    binary_tree_level_order_traversal.main();
+    maximum_depth_of_binary_tree.main();
+    symmetric_tree.main();
+    path_sum.main();
+    count_univalue_subtrees.main();
+    construct_binary_tree_from_inorder_and_postorder_traversal.main();
+  });
+}
